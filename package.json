@@ -1,0 +1,38 @@
+{
+  "name": "wixn",
+  "version": "1.0.6",
+  "description": "Basic tool to install, update and uninstall multiple NPM packages at the same time with `wix` CLI.",
+  "bin": {
+    "wixn": "./index.js"
+  },
+  "keywords": [
+    "loeiks",
+    "wix",
+    "wix install",
+    "wix-install",
+    "wix npm"
+  ],
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "url": "git@github.com:ExWeiv/weiv-data.git",
+    "type": "git"
+  },
+  "contributors": [
+    {
+      "name": "Enes Bekar",
+      "url": "https://github.com/loeiks"
+    }
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "child_process": "^1.0.2",
+    "commander": "^12.1.0",
+    "ora": "^8.1.1",
+    "yargs": "^17.7.2"
+  },
+  "type": "module"
+}
