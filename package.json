@@ -1,6 +1,6 @@
 {
   "name": "wixn",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Basic tool to install, update and uninstall multiple NPM packages at the same time with `wix` CLI.",
   "bin": {
     "wixn": "./index.js"
