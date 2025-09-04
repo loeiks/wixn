@@ -95,7 +95,7 @@ const main = async () => {
             process.exit(1);
         }
 
-        console.log("\n", summary);
+        console.log("\n" + summary);
         process.exit(0);
     } catch (err) {
         if (spinnerInterval) {
