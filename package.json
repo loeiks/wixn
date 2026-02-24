@@ -12,7 +12,7 @@
     "wix-install",
     "wix npm"
   ],
-  "license": "Apache-2.0",
+  "license": "MIT",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
@@ -21,12 +21,6 @@
     "url": "git@github.com:loeiks/wixn.git",
     "type": "git"
   },
-  "contributors": [
-    {
-      "name": "Enes Bekar",
-      "url": "https://github.com/loeiks"
-    }
-  ],
   "dependencies": {
     "chalk": "^5.6.2",
     "execa": "^9.6.1",
