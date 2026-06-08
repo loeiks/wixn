@@ -1,28 +1,38 @@
 # wixn
 
-This is a simple tool to let you easily install and uninstall multiple NPM packages for your Wix websites. Example usage;
+This simple tool let you easily install and uninstall multiple packages for your Wix websites. Example usage;
 
-```cli
-npx wixn i/install/add moment lodash axios @wix/stores
+```bash
+npx wixn add moment lodash axios @wix/stores
 ```
 
-```cli
-npx wixn rm/remove/uninstall axios lodash
+```bash
+npx wixn rm axios lodash
 ```
 
-**You can install with the following commands;**
+> You can use `bunx` too!
+
+**You can install with the following aliases:**
 
 - install
 - add
 - i
 
-**You can uninstall with the following commands;**
+**You can uninstall with the following aliases:**
 
 - uninstall
 - remove
 - rm
 
----
+## Install
+
+If you don't want to repeat `npx` or `bunx` prefix every time you can install package globally:
+
+`bun add -g wixn` or `npm install -g wixn` and then just use `wixn` as a direct command like this:
+
+```bash
+wixn add moment lodash axios @wix/stores
+```
 
 ### How it Works?
 

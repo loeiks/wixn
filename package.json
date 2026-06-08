@@ -1,16 +1,15 @@
 {
+  "type": "module",
   "name": "wixn",
-  "version": "1.4.4",
+  "version": "1.5.0",
   "description": "Basic tool to install, update and uninstall multiple NPM packages at the same time with `wix` CLI.",
   "bin": {
     "wixn": "./index.js"
   },
   "keywords": [
     "loeiks",
-    "wix",
-    "wix install",
-    "wix-install",
-    "wix npm"
+    "wixn",
+    "wix install"
   ],
   "license": "MIT",
   "publishConfig": {
@@ -22,18 +21,17 @@
     "type": "git"
   },
   "dependencies": {
+    "boxen": "^8.0.1",
     "chalk": "^5.6.2",
     "execa": "^9.6.1",
-    "lodash": "^4.17.23",
-    "ora": "^9.2.0"
+    "ora": "^9.4.0"
   },
   "devDependencies": {
-    "@types/lodash": "^4.17.23",
-    "@types/node": "^20.19.31",
-    "terser": "^5.46.0",
-    "typescript": "^5.9.3"
+    "@types/node": "^24.13.1",
+    "terser": "^5.48.0",
+    "typescript": "^6.0.3"
   },
   "scripts": {
-    "build": "tsc && terser ./index.js -o ./index.js"
+    "build": "bun --bun run tsc && terser ./index.js -o ./index.js"
   }
 }

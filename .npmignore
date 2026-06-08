@@ -1,3 +1,4 @@
 index.ts
 tsconfig.json
 bun.lock
+.nvmrc
